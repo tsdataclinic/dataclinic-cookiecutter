@@ -3,6 +3,12 @@
 
 {{cookiecutter.description}}
 
+
+### Link in the data
+
+Client data should already be loaded into the repo or a shared Cloud Storage bucket for the team. To get started with sopying data in and out of the bucket, use the [https://cloud.google.com/storage/docs/quickstart-gsutil#upload_an_object_into_your_bucket](gsutil command) from the terminal or the [https://googleapis.dev/python/storage/latest/client.html](GCS Python API), both of which are pre-installed. 
+
+
 ### Git stuff 
 
 We encourage people to follow the git feature branch workflow which you can read more about here: [https://towardsdatascience.com/why-git-and-how-to-use-git-as-a-data-scientist-4fa2d3bdc197](How to use git as a Data Scientist)
@@ -30,7 +36,7 @@ git commit -m {some descriptive commit message}
 ```
 git push -u origin cleaning_script
 ``` 
-6. Go to git lab and create a merge request.
+6. Go to GitHub and create a merge request.
 7. Either merge the branch yourself if your confident it's good or request that someone else reviews the changes and merges it in.
 8. Repeat
 9. ...
@@ -74,8 +80,6 @@ Directory Structure:
     │   ├── processed      <- The final, canonical data sets for modeling.
     │   └── raw            <- The original, immutable data dump.
     │
-    ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
-    │
     ├── models             <- Trained and serialized models, model predictions, or model summaries
     │
     ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
@@ -107,8 +111,6 @@ Directory Structure:
     │   │
     │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
     │       └── visualize.py
-    │
-    └── tox.ini            <- tox file with settings for running tox; see tox.testrun.org
 
 
 --------
