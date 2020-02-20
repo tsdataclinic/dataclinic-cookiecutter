@@ -6,7 +6,7 @@
 
 ### Link in the data
 
-Client data should already be loaded into the repo or a shared Cloud Storage bucket for the team. To get started with sopying data in and out of the bucket, use the [gsutil command](https://cloud.google.com/storage/docs/quickstart-gsutil#upload_an_object_into_your_bucket) from the terminal or the [GCS Python API](https://googleapis.dev/python/storage/latest/client.html), both of which are pre-installed. 
+Client data should already be loaded into the repo or a shared Cloud Storage bucket for the team. To get started with copying data in and out of the bucket, use the [gsutil command](https://cloud.google.com/storage/docs/quickstart-gsutil#upload_an_object_into_your_bucket) from the terminal or the [GCS Python API](https://googleapis.dev/python/storage/latest/client.html), both of which are pre-installed. 
 
 
 ### Git stuff 
