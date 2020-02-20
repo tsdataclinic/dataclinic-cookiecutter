@@ -1,3 +1,5 @@
+This is a fork of DrivenData's Data Science cookiecutter template. We are changing a few things to adopt it for Data Clinic projects.
+
 # Cookiecutter Data Science
 
 _A logical, reasonably standardized, but flexible project structure for doing and sharing data science work._
@@ -26,10 +28,7 @@ $ conda install cookiecutter
 ### To start a new project, run:
 ------------
 
-    cookiecutter https://github.com/drivendata/cookiecutter-data-science
-
-
-[![asciicast](https://asciinema.org/a/244658.svg)](https://asciinema.org/a/244658)
+    cookiecutter https://github.com/tsdataclinic/dataclinic-cookiecutter/{branch}
 
 
 ### The resulting directory structure
@@ -82,10 +81,6 @@ The directory structure of your new project looks like this:
 │
 └── tox.ini            <- tox file with settings for running tox; see tox.testrun.org
 ```
-
-## Contributing
-
-We welcome contributions! [See the docs for guidelines](https://drivendata.github.io/cookiecutter-data-science/#contributing).
 
 ### Installing development requirements
 ------------
