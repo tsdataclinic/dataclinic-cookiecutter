@@ -38,8 +38,10 @@ The directory structure of your new project looks like this:
 
 ```
 ├── LICENSE
+├── private_LICENSE    <- A pre-generated LICENCE file for when we make the repo privately available to the partner
 ├── Makefile           <- Makefile with commands like `make data` or `make train`
 ├── README.md          <- The top-level README for developers using this project.
+├── external_README.md <- A high-level README structure for when we make the repo available to the partner
 ├── data
 │   ├── external       <- Data from third party sources.
 │   ├── interim        <- Intermediate data that has been transformed.
