@@ -1,3 +1,5 @@
+**This project is no longer maintained by Two Sigma. We continue to encourage independent development.**
+
 This is a fork of DrivenData's Data Science cookiecutter template. We are changing a few things to adopt it for Data Clinic projects.
 
 # Cookiecutter Data Science
